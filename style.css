@@ -23,7 +23,9 @@ li{
     padding-top: 32px;
     background-color: #724796;
 }
-
+.imagem{
+    border-radius: 200px;
+}
 .header-menu nav{
     display: flex;
     justify-content: flex-end;
@@ -52,7 +54,7 @@ li{
 .subcontainer-principal{
     display: flex;
     flex-direction: column;
-                  justify-content: center;
+    justify-content: center;
     align-items:center;
     text-align: center;
 }
