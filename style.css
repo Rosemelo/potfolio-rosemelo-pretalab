@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
-    
+
     outline: 0;
 }
 
-body{
+body {
     font-family: Roboto, sans-serif;
     margin: 0;
 }
 
-li{
+li {
     list-style: none;
-}   
+}
 
-.header-menu{
+.header-menu {
     display: flex;
     position: fixed;
     width: 100%;
@@ -23,114 +23,45 @@ li{
     padding-top: 32px;
     background-color: #724796;
 }
-.imagem{
+
+.imagem {
     border-radius: 200px;
 }
-.header-menu nav{
+
+.header-menu nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
 }
 
-.lista-menu{
+.lista-menu {
     display: flex;
     justify-content: space-evenly;
-    width:50%;
+    width: 50%;
     align-items: center;
 }
 
-.lista-menu li>a{
+.lista-menu li>a {
     color: #fff;
     font-size: 18px;
     text-decoration: inherit;
 }
 
-.principal{
+.principal {
     height: 100vh;
     display: flex;
     background-color: #eaeaea;
 }
 
-.subcontainer-principal{
+.subcontainer-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     text-align: center;
 }
 
-.container{
-    margin-right:auto;
-    margin-left:auto;
-    max-width:960px;
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 100%;
-}
-
-.nome-completo{
-    font-size: 36px;
-    color: #ff4dbf;
-    font-weight: 700;
-    height: 45px;
-}
-
-.profissao{
-    color: #c68505;
-    line-height: 60px;
-}
-
-.texto-sobre{
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.article-lista{
-    display: flex;
-    flex-direction:column;
-    margin-top:100px;
-    margin-bottom:100px;
-}
-
-.topico-principal{
-    font-size: 36px;
-    color:#ff4dbc;
-}
-
-.lista-item{
-    padding: 32px;
-}
-
-.lista-titulo{
-    margin-bottom: 5px;
-    font-size: 22px;
-    color:#661e46
-    font-weight: 700;
-}
-
-.lista-local{
-    font-size: 18px;
-    color:#2f80ed
-}
-
-.lista-descricao{
-    font-size: 18px;
-    margin-top: 5px;
-    line-height: 20px;
-    color: #828282;
-    font-weight: 300;
-}
-
-.lista-item ul li{
-    margin-bottom: 32px;
-}
-
-.wrapper-portfolio{
-    background-color:#eaeaea;
-    display: flex;
-    flex-direction: column;
-}
-.container-footer{
+.container {
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
@@ -138,26 +69,100 @@ li{
     padding-left: 10px;
     width: 100%;
 }
-.footer{
+
+.nome-completo {
+    font-size: 36px;
+    color: #ff4dbf;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao {
+    color: #c68505;
+    line-height: 60px;
+}
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal {
+    font-size: 36px;
+    color: #ff4dbc;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #661e46 font-weight: 700;
+}
+
+.lista-local {
+    font-size: 18px;
+    color: #2f80ed
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.wrapper-portfolio {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.footer {
     background-color: #724796;
     height: 30vh;
     display: flex;
     align-items: center;
 }
-.estilo-icon{
+
+.estilo-icon {
     font-size: 32px;
     margin-right: 10px;
 }
-.links{
+
+.links {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-.lista-footer li{
-    color:#fff;
+
+.lista-footer li {
+    color: #fff;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
 }
-
